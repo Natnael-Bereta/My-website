@@ -7,6 +7,7 @@ body, h1, h2, p, ul, li {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5;
+    background-color: #a8a2a5;
 }
 
 header, nav, main, footer {
@@ -22,6 +23,7 @@ header {
 nav ul {
     list-style-type: none ;
     text-align: center;
+    
 }
 
 nav ul li {
@@ -30,10 +32,57 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: solid;
-    color: rgb(24, 9, 9);
+    color: rgb(255, 255, 255);
     text-decoration-style: double;
 }
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.card-container{
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
 
+
+}
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0,0, 2);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 16px;
+     
+}
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p {
+    color:#636060;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+}
 footer {
     background-color: #321B24;
     color: azure;
